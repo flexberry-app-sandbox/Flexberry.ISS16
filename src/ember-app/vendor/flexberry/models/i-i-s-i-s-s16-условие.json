@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISISS16Условие",
+  "modelName": "i-i-s-i-s-s16-условие",
+  "className": "Условие",
+  "nameSpace": "IIS.ISS16",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "нименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерПоддержки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УсловиеE",
+      "modelName": "i-i-s-i-s-s16-условие",
+      "attrs": [
+        {
+          "name": "нименование",
+          "caption": "Нименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номерПоддержки",
+          "caption": "Номер поддержки",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "УсловиеL",
+      "modelName": "i-i-s-i-s-s16-условие",
+      "attrs": [
+        {
+          "name": "нименование",
+          "caption": "Нименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номерПоддержки",
+          "caption": "Номер поддержки",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

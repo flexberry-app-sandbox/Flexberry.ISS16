@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "I s s16",
+  "applicationTitle": "I s s16",
+  "items": [
+    {
+      "link": null,
+      "menuName": "i-s-s16",
+      "caption": "ISS16",
+      "title": "ISS16",
+      "children": [
+        {
+          "link": "i-i-s-i-s-s16-вид-поддержки-l",
+          "menuName": null,
+          "caption": "Вид поддержки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s16-условие-l",
+          "menuName": null,
+          "caption": "Условие",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

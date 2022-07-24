@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISISS16ВидПоддержки",
+  "modelName": "i-i-s-i-s-s16-вид-поддержки",
+  "className": "ВидПоддержки",
+  "nameSpace": "IIS.ISS16",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "описание",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерПоддержки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВидПоддержкиE",
+      "modelName": "i-i-s-i-s-s16-вид-поддержки",
+      "attrs": [
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номерПоддержки",
+          "caption": "Номер поддержки",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ВидПоддержкиL",
+      "modelName": "i-i-s-i-s-s16-вид-поддержки",
+      "attrs": [
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номерПоддержки",
+          "caption": "Номер поддержки",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
